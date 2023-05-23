@@ -40,6 +40,21 @@ main {
     background-size: contain;
 }
 
+/* spacing */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 3px solid rgba(128, 21, 0, 0.482);
+  }
+    
+  th,
+  td {
+    padding: 7px;
+    text-align: center;
+  }
+  
+
 a,
 a:hover {
     color: initial;
@@ -76,4 +91,13 @@ ul {
 
 ol {
     list-style-type: upper-roman;
+}
+
+.input {
+    margin: 0.4%;
+}
+
+details {
+    margin: 0.4%;
+    text-decoration: underline;
 }
